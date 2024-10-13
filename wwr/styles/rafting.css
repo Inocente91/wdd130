@@ -1,5 +1,7 @@
 * {
     font-family: "Quicksand", system-ui;
+    margin: 0;
+    padding: 0;
 }
 :root {
     --color-main: #03055e;
