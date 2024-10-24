@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact information of the company">
+    <meta name="author" content="Inocente Perez">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo site" width="100">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+    <main>      
+        <div class="container">
+            <img src="images/service-agent.png" alt="service agent">
+            <div class="hero-text">
+              <h1>Get in touch</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, cum non sed quaerat sunt nisi cumque minus quas sapiente doloribus nihil architecto illo hic nobis quae deleniti facilis perferendis temporibus.</p>
+              <button>Contact Us</button>
+            </div>
+          </div>
+
+           <!-- Meet our team section -->
+
+          <section class="team-section">
+            <h2>Meet Our Team</h2>
+    
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="images/keyla.jpg" alt="Keyla Doe">
+                    <h3>Keyla Doe</h3>
+                    <p>C.E.O.</p>
+                    <p>Keyla is a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, eligendi atque debitis corporis.</p>
+                </div>
+    
+                <div class="team-member">
+                    <img src="images/anna.jpg" alt="Anna Smith">
+                    <h3>Anna Smith</h3>
+                    <p>Marketing Manager</p>
+                    <p>Anna has been Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, eligendi atque debitis corporis.</p>
+                </div>
+    
+                <div class="team-member">
+                    <img src="images/david.jpg" alt="David Johnson">
+                    <h3>David Johnson</h3>
+                    <p>Reservation</p>
+                    <p>David is a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, eligendi atque debitis corporis.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact form -->
+
+        <section class="contact-box">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="POST">
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+    
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+    
+                <!-- Purpose of the Message (Radio Buttons) -->
+                <div class="form-group">
+                    <label>Purpose of the Message:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    </div>
+                </div>
+    
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                </div>
+    
+                <!-- Subscribe to Newsletter (Checkbox) -->
+                <div class="form-group">
+                    <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                </div>
+    
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Company info section -->
+        <div class="company-info">
+            <h2>Our Company</h2>
+            <div class="contact-details">
+                <p><span>Address:</span> 123 Main Street, Suite 500, New York, NY 10001</p>
+                <p><span>Phone Numbers:</span></p>
+                <p>Main: (555) 123-4567</p>
+                    <p>Support: (555) 987-6543</p>
+                <p><span>Email:</span> contact@whitewaterrafting.com</p>
+            </div>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9994204618777!2d-74.00594168459549!3d40.712775979331176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a31650e7a85%3A0xa7f6d4558ff2a32e!2sOne%20World%20Trade%20Center%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2s!4v1636315881616!5m2!1sen!2s" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+     </main>
+    <footer>
+        <p class="copyright">&#169;2024 | White Water Rafting | Inocente Perez</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook_icon.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter_icon.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_icon.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+</html>
