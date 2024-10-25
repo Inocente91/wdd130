@@ -178,6 +178,7 @@ figure {
     width: 250px;
 }
 .container {
+    width: 100%;
     height: 400px;
     padding: 20px;
     display: flex;
@@ -188,17 +189,17 @@ figure {
   }
   
   .container img {
-    width: 100%;
+    width: 60%;
     height: 100%;
   }
   
   .hero-text {
     text-align: center;
-    width: 80%;
+    width: 40%;
   }
   
   .hero-text h1 {
-    font-size: 3.3rem;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 12px;
     color: var(--color-main);
   }
@@ -232,7 +233,6 @@ figure {
   .team-section {
     text-align: center;
     padding: 50px;
-    background-color: var(--accent2-color);
 }
 
 .team-section h2 {
@@ -278,7 +278,7 @@ figure {
 }
 
 .form-container {
-    width: 1000px;
+    width: 800px;
     margin: 50px auto;
     padding: 20px;
 }
