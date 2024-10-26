@@ -40,6 +40,262 @@ header a {
     color: var(--accent2-color);
 }
 
+/* Home page CSS start here */
+
+.hero-section-home {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/23/19/57/rafting-293542_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative; 
+    overflow: hidden;
+}
+
+.hero-section-home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.hero-section-home * {
+    position: relative;
+    z-index: 2; 
+}
+
+.hero-section-home h1 {
+    font-family: "Montserrat", serif;
+    font-size: xx-large;
+
+}
+
+.newsletter-sign-form {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    height: 200px; 
+    padding: 0 20px; 
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+
+.newsletter-sign-form h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.happy-employee {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 50%; 
+    
+}
+
+.happy-employee img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-home-section {
+    position: relative; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    text-align: center;
+    height: 100vh; 
+    background-image: url(https://pixabay.com/get/gbaf152c74b7ce585bbe2ffb61789915addae9f67ecb726e1041dd142f112b0132155ba2849e55bb2e63205fd6a8ed4bd.jpg); /* Hero background image */
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    padding: 0 50px; 
+}
+
+.hero-overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative; 
+    z-index: 2; 
+    max-width: 600px; 
+}
+
+.hero-content h1 {
+    font-size: 3em; 
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em; 
+    line-height: 1.5; 
+    margin-bottom: 30px;
+}
+
+
+.hero-main-img {
+    position: relative; 
+    z-index: 2; 
+}
+
+.hero-main-img img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.rafting-section {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 50px 20px; 
+    background-color: var(--accent2-color); 
+}
+
+.rafting-item {
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: center; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.rafting-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 15px var(--color-secondary); 
+}
+
+.rafting-item img {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px;
+}
+
+.rafting-item h3 {
+    margin: 15px 0; 
+    font-size: 1.5em; 
+    color: #333; 
+}
+
+.rafting-item p {
+    font-size: 1em; 
+    color: #666; 
+    line-height: 1.5; 
+}
+
+/* Home page CSS ends here */
+
+/* Trips page CSS start here */
+
+.hero-section-trips {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(https://pixabay.com/get/gb2b31cc6ca06708ddc0b3d155b379e5b2bfd7c7aea3ca5517324afb05afc974cdd1d18d251f4c74c8f8078943981d314.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative; 
+    overflow: hidden;
+}
+
+.hero-section-trips::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.hero-section-trips * {
+    position: relative;
+    z-index: 2; 
+}
+
+.hero-section-home h1 {
+    font-family: "Montserrat", serif;
+    font-size: xx-large;
+
+}
+
+
+.trip-descriptions {
+    padding: 20px;
+}
+
+.trip {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    background: white;
+}
+
+.trip img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.trip h3 {
+    margin: 0;
+    padding: 15px;
+    background: #f0f0f0;
+}
+
+.trip p {
+    padding: 15px;
+}
+
+.trip-table {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: var(--color-main);
+    color: white;
+}
+/* Trips page CSS ends here */
+
 
 
 .hero {
@@ -47,6 +303,7 @@ header a {
     width: 100%;
     height: 30em;
     position: relative;
+    
 }
 
 .hero img {
@@ -74,6 +331,7 @@ article {
     margin-top: 100px;
     margin-left: 25px;
     margin-right: 25px;
+    border-radius: 8px; 
 }
 
 article p {
@@ -96,10 +354,12 @@ article p {
     height: 160px;
     right: 35px;
     top: 65px;
+    border-radius: 8px; 
 }
 
 section {
     display: grid;
+    
 }
 
 .history {
@@ -108,6 +368,7 @@ section {
     align-items: center;
     justify-content: center;
     height: 450px;
+    
 }
 
 .history h2 {
@@ -133,7 +394,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     height: 400px;
-    background-color: var(--accent2-color)
+    background-color: white;
 }
 
 .history-header {
@@ -145,10 +406,12 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--color-secondary);
+    background-color: var(--accent1-color);
     height: 400px;
     margin-top: -75px;
+    
 }
+
 
 figure {
     border: thin var(--color-main) solid;
@@ -158,11 +421,13 @@ figure {
     max-width: 220px;
     margin: auto;
     background-color: var(--accent2-color);
+    border-radius: 8px; 
   }
 
   figure img {
     width: 200px;
     height: 130px;
+    border-radius: 8px; 
   }
 
   figcaption {
@@ -171,11 +436,14 @@ figure {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    border-radius: 8px; 
+    
   }
 
 
 .history-img {
     width: 250px;
+    border-radius: 8px; 
 }
 .container {
     width: 100%;
@@ -214,25 +482,22 @@ figure {
   }
   
   button {
-    padding: 1em 2.1em 1.1em;
-    border-radius: 4px;
-    margin: 8px;
-    border: none;
-    background-color: var(--color-main);
-    color: var(--accent2-color);
-    font-weight: 800;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    text-align: center;
-    transition: color 3s ease-in-out;
-  }
-  
-  button:hover {
-    background-color: transparent;
-    color: var(--color-secondary);
-    border: 3px solid var(--color-main);
-    cursor: pointer;
-  } 
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: var(--color-main); 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: var(--color-secondary); 
+}
 
   .team-section {
     text-align: center;
