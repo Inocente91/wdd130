@@ -37,7 +37,7 @@ header a {
     width: 100%;
     text-align: center;
     background-color: var(--color-secondary);
-    color: var(--accent2-color);
+    color: white;
 }
 
 /* Home page CSS start here */
@@ -317,7 +317,7 @@ th {
     position: absolute;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: var(--accent2-color);
+    color: white;
     background-color: var(--color-main);
     margin-top: 35px;
 }
@@ -341,7 +341,7 @@ article p {
     text-align: center;
     margin-top: 45px;
     margin-left: 30px;
-    color: var(--accent2-color);
+    color: white;
     padding-top: 30px;
     padding-bottom: 30px;
 }
