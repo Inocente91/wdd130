@@ -639,7 +639,7 @@ footer {
 footer .copyright {
     text-align: center;
     text-decoration: none;
-    width: 70%;
+    width: 60%;
     display: block;
     float: left;
     margin-top: 40px;
@@ -654,13 +654,19 @@ footer .sociallinks {
 
 .sociallinks a {
     margin-right: .6rem;
-    color: transparent;
     width: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Quicksand", serif
 }
 
 .sociallinks img {
     width: 20px;
+}
+
+a {
+    width: 10%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 
 
