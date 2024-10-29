@@ -64,46 +64,51 @@
         <!-- Contact form -->
 
         <section class="contact-box">
-        <div class="form-container">
-            <h2>Contact Us</h2>
-            <form action="/submit" method="POST">
-                <!-- Name -->
-                <div class="form-group">
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                </div>
-    
-                <!-- Email -->
-                <div class="form-group">
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-                </div>
-    
-                <!-- Purpose of the Message (Radio Buttons) -->
-<div class="form-group">
-    <label>Purpose of the Message:</label>
-    <div class="radio-group">
-        <label><input type="radio" id="general-inquiry" name="purpose" value="general" required> General Inquiry</label>
-        <label><input type="radio" id="reservation-question" name="purpose" value="reservation"> Reservation Question</label>
-        <label><input type="radio" id="website-suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
-    </div>
-</div>
-
-<!-- Subscribe to Newsletter (Checkbox) -->
-<div class="form-group">
-    <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
-</div>
-
-    
-                <!-- Submit Button -->
-                <div class="form-group">
-                    <button type="submit" class="submit-btn">Submit Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <!-- Company info section -->
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <form action="/submit" method="POST">
+                    <!-- Name -->
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+            
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+            
+                    <!-- Purpose of the Message (Radio Buttons) -->
+                    <div class="form-group">
+                        <label>Purpose of the Message:</label>
+                        <div class="radio-group">
+                            <label><input type="radio" id="general-inquiry" name="purpose" value="general" required> General Inquiry</label>
+                            <label><input type="radio" id="reservation-question" name="purpose" value="reservation"> Reservation Question</label>
+                            <label><input type="radio" id="website-suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
+                        </div>
+                    </div>
+        
+                    <!-- Subscribe to Newsletter (Checkbox) -->
+                    <div class="form-group">
+                        <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                    </div>
+        
+                    <!-- Message -->
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                    </div>
+            
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">Submit Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <!-- Company info section -->
         <div class="company-info">
             <h2>Our Company</h2>
             <div class="contact-details">
