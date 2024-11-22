@@ -629,41 +629,34 @@ iframe {
 }
 
 footer {
+    display: flex; /* Cambiado de flexbox a flex */
+    justify-content: space-between; /* Espacia los bloques */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
     width: 100%;
     height: 100px;
-    text-align: center;
     background-color: var(--color-main);
     color: var(--accent2-color);
+    padding: 0 20px; /* Espaciado a los lados */
 }
 
 footer .copyright {
-    text-align: center;
-    text-decoration: none;
-    width: 60%;
-    display: block;
-    float: left;
-    margin-top: 40px;
+    width: 80%;
+    text-align: left; /* Alinea el texto a la izquierda */
     font-size: small;
+    padding-left: 250px;
 }
 
-footer .sociallinks {
-    float: right;
-    margin-top: 35px;
+footer .icons {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end; /* Alinea los íconos a la derecha */
+    gap: 10px; /* Espacio entre íconos */
+    padding-right: 100px;
 }
 
-
-.sociallinks a {
-    margin-right: .6rem;
-    width: 100%;
-    font-family: "Quicksand", serif
-}
-
-.sociallinks img {
-    width: 20px;
 }
 
 a {
-    width: 10%;
     text-decoration: none;
     color: white;
     text-align: center;
